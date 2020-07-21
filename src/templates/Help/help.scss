@@ -1,0 +1,93 @@
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid wheat;
+  padding: 20px 0;
+}
+
+.inner {
+  border-radius: 50%;
+  background-color: black;
+  border: 0;
+  padding: 5px 15px;
+  border-width: 2px;
+  border-style: ridge;
+  color: #feffd4;
+  font-weight: bold;
+  position: relative;
+}
+
+.help5050used:after {
+  content: "";
+  font-size: 50px;
+  position: absolute;
+  right: -3%;
+  top: 27%;
+  width: 100%;
+  transform: rotate(15deg);
+  transform-origin: 31% 34%;
+  border: 1px solid red;
+  color: red;
+}
+
+.help5050used:before {
+  content: "";
+  position: absolute;
+  right: -8%;
+  top: 57%;
+  width: 100%;
+  transform: rotate(-16deg);
+  transform-origin: 31% 34%;
+  border: 1px solid red;
+  color: red;
+}
+
+.helpcallused:after {
+  content: "";
+  font-size: 50px;
+  position: absolute;
+  right: -5%;
+  top: 27%;
+  width: 100%;
+  transform: rotate(27deg);
+  transform-origin: 31% 34%;
+  border: 1px solid red;
+  color: red;
+}
+
+.helpcallused:before {
+  content: "";
+  position: absolute;
+  right: -6%;
+  top: 57%;
+  width: 100%;
+  transform: rotate(-26deg);
+  transform-origin: 31% 34%;
+  border: 1px solid red;
+  color: red;
+}
+
+.helplookerused::after {
+  content: "";
+  font-size: 50px;
+  position: absolute;
+  right: -5%;
+  top: 27%;
+  width: 100%;
+  transform: rotate(27deg);
+  transform-origin: 31% 34%;
+  border: 1px solid red;
+  color: red;
+}
+
+.helplookerused:before {
+  content: "";
+  position: absolute;
+  right: -6%;
+  top: 57%;
+  width: 100%;
+  transform: rotate(-26deg);
+  transform-origin: 31% 34%;
+  border: 1px solid red;
+  color: red;
+}

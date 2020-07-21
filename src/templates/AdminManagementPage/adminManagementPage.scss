@@ -1,0 +1,19 @@
+.header {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.logout {
+	margin: 15px 20px;
+}
+.list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 20px;
+}
