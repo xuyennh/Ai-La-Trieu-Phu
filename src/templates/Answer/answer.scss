@@ -1,0 +1,20 @@
+.answer {
+  padding: 7px 0;
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  color: #fff;
+}
+
+.input {
+  display: none;
+
+  &:checked~.item {
+    background-color: green;
+  }
+}

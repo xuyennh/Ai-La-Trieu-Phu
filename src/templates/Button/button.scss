@@ -1,0 +1,22 @@
+.btn {
+  border: 0;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-width: 2px;
+  border-style: ridge;
+  border-radius: 5%;
+  color: black;
+  font-weight: bold;
+}
+
+.btn_primary {
+  background-color: #ff9c12f0;
+}
+
+.btn_light {
+  background-color: lightsalmon;
+}
+
+.btn_dark {
+  background-color: darkkhaki;
+}
